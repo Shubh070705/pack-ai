@@ -9,9 +9,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'PackAI - AI-Powered Inventory for Packers & Movers',
-  description: 'Revolutionize your packing operations with AI-powered household inventory detection. Automate, track, and optimize your moving business.',
-  generator: 'Developed by Shubh07',
+  title: 'NEXTGEN - AI Powered Inventory Detection',
+  description: 'Detect furniture, appliances, cartons and household items from images, videos or live camera using AI.',
+  generator: 'AI Powered Inventory Detection',
   icons: {
     icon: [
       {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   colorScheme: 'dark',
   themeColor: [
-    { media: '(prefers-color-scheme: dark)', color: '#0a0e27' },
+    { media: '(prefers-color-scheme: dark)', color: '#030712' },
   ],
 }
 

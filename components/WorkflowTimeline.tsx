@@ -31,7 +31,7 @@ export function WorkflowTimeline() {
         <div className="text-center max-w-2xl">
           <AnimatedHeading>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-              How PackAI Works
+              How NEXTGEN Works
             </h2>
           </AnimatedHeading>
           <AnimatedHeading delay={0.1}>

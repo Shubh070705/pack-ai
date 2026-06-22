@@ -27,11 +27,15 @@ export function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-blue-400 to-blue-500">
-              <span className="text-sm font-bold text-white">P</span>
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-r from-blue-400 to-blue-500 p-0.5">
+              <img
+                src="/logo.png"
+                alt="NEXTGEN logo"
+                className="h-full w-full rounded-lg object-cover"
+              />
             </div>
             <span className="text-xl font-bold text-white hidden sm:inline">
-              PackAI
+              NEXTGEN
             </span>
           </motion.div>
 
@@ -47,7 +51,7 @@ export function Navbar() {
               href="#dashboard"
               className="text-sm text-gray-300 transition-colors hover:text-white"
             >
-              Dashboard
+              Start Demo
             </a>
             <a
               href="#analytics"

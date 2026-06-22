@@ -13,7 +13,7 @@ export function DashboardPreview() {
         <div className="text-center max-w-2xl">
           <AnimatedHeading>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-              Enterprise Dashboard
+              Enterprise Start Demo Workspace
             </h2>
           </AnimatedHeading>
           <AnimatedHeading delay={0.1}>
@@ -41,7 +41,7 @@ export function DashboardPreview() {
                     <div className="h-3 w-3 rounded-full bg-yellow-500" />
                     <div className="h-3 w-3 rounded-full bg-green-500" />
                   </div>
-                  <span className="text-sm text-gray-400 ml-2">PackAI Dashboard</span>
+                  <span className="text-sm text-gray-400 ml-2">NEXTGEN Start Demo</span>
                 </div>
               </div>
 

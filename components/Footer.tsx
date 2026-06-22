@@ -4,8 +4,6 @@ import { motion } from 'framer-motion'
 import { Code2, Share2, MessageSquare, Mail, ArrowRight } from 'lucide-react'
 
 export function Footer() {
-  const currentYear = new Date().getFullYear()
-
   return (
     <footer className="border-t border-white/10 bg-gradient-to-b from-transparent to-slate-900/20">
       <div className="mx-auto max-w-7xl px-4 py-16 md:px-6 lg:px-8">
@@ -21,7 +19,7 @@ export function Footer() {
             Ready to Transform Your Operations?
           </h3>
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-            Join hundreds of moving companies already using PackAI to revolutionize their inventory management.
+            Join hundreds of moving companies already using NEXTGEN to revolutionize their inventory management.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -108,11 +106,15 @@ export function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Left */}
           <div className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-r from-blue-400 to-blue-500 flex items-center justify-center">
-              <span className="text-sm font-bold text-white">P</span>
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-r from-blue-400 to-blue-500 p-0.5">
+              <img
+                src="/logo.png"
+                alt="NEXTGEN logo"
+                className="h-full w-full rounded-lg object-cover"
+              />
             </div>
             <span className="text-sm text-gray-400">
-              © {currentYear} PackAI. All rights reserved.
+              © 2026 NEXTGEN
             </span>
           </div>
 

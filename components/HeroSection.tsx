@@ -46,7 +46,7 @@ export function HeroSection() {
             {/* Subheading */}
             <motion.div variants={item}>
               <p className="text-lg text-gray-300 leading-relaxed max-w-xl">
-                Revolutionize your packing operations with AI-powered household inventory detection. Automate, track, and optimize every move with PackAI.
+                Revolutionize your packing operations with AI-powered household inventory detection. Automate, track, and optimize every move with NEXTGEN.
               </p>
             </motion.div>
 
@@ -62,7 +62,7 @@ export function HeroSection() {
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 px-8 py-3 rounded-lg font-semibold text-white transition-all hover:shadow-lg hover:shadow-blue-500/30"
               >
-                Open Dashboard
+                Start Demo
                 <ArrowRight className="h-5 w-5" />
               </motion.button>
             </motion.div>
@@ -85,7 +85,7 @@ export function HeroSection() {
                       <div className="h-3 w-3 rounded-full bg-yellow-500" />
                       <div className="h-3 w-3 rounded-full bg-green-500" />
                     </div>
-                    <span className="text-xs text-gray-400">PackAI Dashboard</span>
+                    <span className="text-xs text-gray-400">NEXTGEN Start Demo</span>
                   </div>
 
                   {/* Dashboard content */}

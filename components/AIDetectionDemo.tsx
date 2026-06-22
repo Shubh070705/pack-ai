@@ -35,7 +35,7 @@ export function AIDetectionDemo() {
           </AnimatedHeading>
           <AnimatedHeading delay={0.1}>
             <p className="text-lg text-gray-400">
-              Watch how PackAI instantly analyzes household items and generates comprehensive inventory reports
+              Watch how NEXTGEN instantly analyzes household items and generates comprehensive inventory reports
             </p>
           </AnimatedHeading>
         </div>

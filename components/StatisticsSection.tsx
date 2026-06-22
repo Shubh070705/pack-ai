@@ -17,7 +17,7 @@ export function StatisticsSection() {
           </AnimatedHeading>
           <AnimatedHeading delay={0.1}>
             <p className="text-lg text-gray-400">
-              PackAI is transforming the moving industry with cutting-edge AI technology
+              NEXTGEN is transforming the moving industry with cutting-edge AI technology
             </p>
           </AnimatedHeading>
         </div>
@@ -27,7 +27,7 @@ export function StatisticsSection() {
           <KPICard
             number="Live"
             label="Scan Activity"
-            description="Dashboard activity comes from completed scan actions"
+            description="Start Demo activity comes from completed scan actions"
             delay={0}
           />
           <KPICard
