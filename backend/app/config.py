@@ -11,6 +11,7 @@ class Settings(BaseSettings):
         default_factory=lambda: [
             "http://localhost:3000",
             "http://127.0.0.1:3000",
+            "https://pack-ai-production.up.railway.app",
         ]
     )
     yolo_model: str = "yolo11m.pt"
